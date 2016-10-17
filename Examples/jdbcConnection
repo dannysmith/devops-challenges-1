@@ -1,0 +1,7 @@
+/subsystem=datasources/data-source=MySQLDatasource: \
+   add( \
+   jndi-name="java:/mySQ\
+   driver-name="mysql-connector-java-5.1.32-bin.jar_com.mysql.jdbc.Driver_5_1", \
+   connection-url="jdbc:mysql://172.17.0.5:3306/conygre", \
+   user-name="root", \
+   password="secret")
